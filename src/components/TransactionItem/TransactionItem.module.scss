@@ -1,0 +1,28 @@
+.item {
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid black;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+.amount {
+  font-size: 1.6rem;
+  font-weight: bold;
+  justify-self: flex-end;
+  padding-right: 3px;
+}
+.details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+}
+.vendor {
+  font-weight: bold;
+}
+.budget {
+  color: green;
+  text-decoration: underline;
+}
