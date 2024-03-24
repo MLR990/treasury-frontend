@@ -26,7 +26,16 @@ const MainNavigation = () => {
               Transactions
             </NavLink>
           </li>
-          {/* Add more NavLink elements for other pages */}
+          <li>
+            <NavLink
+              to='/budgets'
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              Budgets
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>
