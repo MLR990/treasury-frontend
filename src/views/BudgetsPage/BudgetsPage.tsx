@@ -1,5 +1,12 @@
+import { MonthSelector } from '../../components';
+
 function BudgetsPage() {
-  return <div>This is the budgets page</div>;
+  return (
+    <main>
+      <MonthSelector />
+      This is hte budgets page
+    </main>
+  );
 }
 
 export default BudgetsPage;
